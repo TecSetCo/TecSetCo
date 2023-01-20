@@ -1989,3 +1989,23 @@ body {
     border-radius: 23px;
   }
 }
+
+
+
+/* Gallery  */
+
+.gallery {
+  font-size: 52px;
+  color: #2a2a2a;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #5b03e4;
+}
+.Gallery-section{
+  margin-left: 2%;
+  margin-right: 2%;
+  align-content: center;
+}
+
