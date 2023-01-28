@@ -331,7 +331,14 @@ Header Style
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
 }
-
+.background-header .logo{
+  padding-top: 5px !important;
+    max-width: 100px !important;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
 .header-area {
   position: absolute;
   background: rgb(85,0,227);
@@ -355,8 +362,9 @@ Header Style
 
 .header-area .main-nav .logo {
   flex-basis: 20%;
-  position: absolute;
-  top: -45px;
+  position: absolute;  
+  padding-top: 10px;
+  max-width: 150px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -708,8 +716,8 @@ Header Style
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-  }
+    margin-top: 100px !important;    
+  }  
   .background-header.header-sticky .nav {
     margin-top: 80px !important;
   }
